@@ -57,6 +57,5 @@ python evaluation/evaluate_by_kcclip.py
 | Model | Type | Location | Description |
 |-------|------|----------|-------------|
 | **KODI** | LoRA Weights | `model-weights/kodi/` | Korean cultural diffusion model (included in repository) |
-| **KODI Base** | Foundation Model | [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) | Stable Diffusion v1.5 base model |
 | **KC-CLIP KO** | Evaluator | [letgoofthepizza/kc-clip-ko](https://huggingface.co/letgoofthepizza/kc-clip-ko) | Korean cultural CLIP model (Korean) |
 | **KC-CLIP EN** | Evaluator | [letgoofthepizza/kc-clip-en](https://huggingface.co/letgoofthepizza/kc-clip-en) | Korean cultural CLIP model (English) |
