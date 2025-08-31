@@ -1,4 +1,4 @@
-# KODI: Korean Diffusion for Image Generation
+# KODI: A Korean Diffusion Model for Bilingual Text-to-Image Generation and Cultural Fidelity
 
 KODI is a diffusion model that generates high-quality Korean cultural images from Korean text prompts. It uses a Korean CLIP-based text encoder to better understand Korean prompts and generate culturally appropriate images.
 
