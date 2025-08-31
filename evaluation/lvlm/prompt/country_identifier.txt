@@ -1,0 +1,13 @@
+You are an expert in cultural image analysis. Look at the image provided and answer the following questions:
+
+1. Which country's characteristics are shown in the objects or scenes depicted in this image?
+2. What is the visual evidence for that judgment? (array of 2-5 visual cues)
+
+- Return only valid minified JSON (no Markdown/code fences, no comments), exactly:
+- '‘’, “”“, json, etc. Markdown format output is not allowed. It must start with "{{" and end with "}}".
+
+[Output format]
+{{
+    "country": "single best-matching country name",
+    "visual_evidence": []
+}}

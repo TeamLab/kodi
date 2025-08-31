@@ -1,0 +1,22 @@
+You are an expert in cultural image evaluation. 
+Analyze the attached image together with this JSON explanation from the Country Identifier step result and the original subcategory prompt:
+
+[Country Identifier step result]
+{data}
+
+[Subcategory]
+{subcategory}
+
+Rate on a scale from 1 to 5 (1 = not at all, 5 = perfectly):
+1.	Text Alignment Score (tas): how well the image matches the original subcategory prompt.
+2.	Visual Evidence Score (ves): how accurately the provided visual_evidence corresponds to authentic cultural features of the chosen country.
+
+
+Return only valid minified JSON (no Markdown/code fences, no comments), exactly:
+- '‘’, “”“, json, etc. Markdown format output is not allowed. It must start with "{{" and end with "}}".
+
+[Output format]
+{{
+    "tas": <integer 1–5>,
+    "ves": <integer 1–5>
+}}

@@ -59,4 +59,4 @@ python evaluation/evaluate_by_kcclip.py
 - **Base Model**: Stable Diffusion v1.5
 
 ### KC-CLIP Evaluator Models
-Coming soon...# kodi
+Coming soon...

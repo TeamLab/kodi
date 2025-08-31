@@ -1,0 +1,9 @@
+# Model weights and checkpoints
+model-weights/evaluator/
+
+# Generated results
+evaluation/generated-results/
+evaluation/evaluation-results/
+
+# Dataset images (too large for git)
+korean-cultural-dataset/kcd_images/
