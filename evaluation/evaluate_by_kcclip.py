@@ -16,8 +16,8 @@ DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 # Default paths (can be overridden by command line arguments)
 BASE_DIR = Path(__file__).resolve().parent
 DEFAULT_MODEL_WEIGHTS_DIR = BASE_DIR.parent / "model-weights" / "evaluator"
-DEFAULT_PROMPT_FILE = BASE_DIR / "benchmark/mc-k.json"
-DEFAULT_GEN_ROOT = BASE_DIR / "generated-results/mc-k"
+DEFAULT_PROMPT_FILE = BASE_DIR / "benchmark/b-kc.json"
+DEFAULT_GEN_ROOT = BASE_DIR / "generated-results/b-kc"
 DEFAULT_OUT_ROOT = BASE_DIR / "evaluation-results"
 
 CATEGORY_BOUNDS = {

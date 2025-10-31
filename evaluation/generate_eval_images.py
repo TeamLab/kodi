@@ -13,7 +13,7 @@ device = "cuda:0"
 # Paths / constants
 PRETRAINED_MODEL_PATH = "stable-diffusion-v1-5/stable-diffusion-v1-5"
 CLIP_MODEL_PATH = "Bingsu/clip-vit-large-patch14-ko"
-PROMPT_FILE = "./benchmark/mc-k.json"
+PROMPT_FILE = "./benchmark/b-kc.json"
 
 
 def _read_prompt():
